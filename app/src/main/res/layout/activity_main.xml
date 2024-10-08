@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:background="#1B348D"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+
+    <!-- Campo de texto para el correo electrónico -->
+
+    <ImageView
+
+        android:id="@+id/miImagen"
+        android:layout_width="249dp"
+        android:layout_height="218dp"
+        android:contentDescription="Descripción de la imagen"
+        android:src="@drawable/lingolink" />
+
+    <RelativeLayout
+        android:layout_width="215dp"
+        android:layout_height="36dp">
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundTint="@color/white"
+        android:hint="Correo electrónico"
+        android:textColor="@color/white"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="@color/white" />
+
+
+
+
+    <!-- Campo de texto para la contraseña -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white" />
+
+    <!-- Botón para iniciar sesión -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:textColor="@android:color/white" />
+
+    <!-- Botón para registrarse -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:layout_marginTop="17dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
